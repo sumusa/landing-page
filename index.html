@@ -1,75 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>VortexVoyager | Home</title>
-</head>
-<body>
-    <nav class="navbar">
-        <a href="#title-section"><img class="header-logo" src="images/avataaars.png"></a>
-        <ul class="nav-links">
-            <li><a href="#intro-section">About</a></li>
-            <li><a href="#content-section">Portfolio</a></li>
-            <li><a href="#quote-section">Resume</a></li>
-            <li><a href="#contact-us">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <div class="main">
-        <div id="intro-section" class="intro">
-            <div class="intro-text">
-                <h1>Welcome!</h1>
-                <p class="sidekick-text">This is where a short description would go. Or <em>should</em> go, or maybe even 
-                    <strong>does</strong> go, depending on your perception of time-flow</em>.</p>
-                <button class="explore-button">Explore</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SUMAYYAH'S WEBSITE</title>
+        <link rel="icon" type="image/x-icon" href="/images/sum-favicon.ico">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"/>  
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <h3>Sumayyah</h3>
             </div>
-            <!-- <div class="image">
-                <img class="main-img" src="images/logo.png" alt="">
-            </div> -->
-        </div>
-        <div id="content-section" class="content">
-            <h2>Check out my Portfolio!</h2>
-            <div class="cards">
-                <div class="card">
-                    <div class="content-img">
-                        <a href="https://sumusa.github.io/recipe-project/" target="_blank"> 
-                        <img class="portfolio-icon" src="images/recipe-icon.png" alt="Rock paper scissors icon"/></a>
-                    </div>
-                    <h4>Recipe Project</h4>
-                    <p>...because at some point, everyone learns basic html and css</p>
-                </div>
-                <div class="card">
-                    <div class="content-img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <div class="content-img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
-                <div class="card">
-                    <div class="content-img"></div>
-                    <p>this is some subtext under an illustration or image</p>
-                </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Resume</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section-title section-title-intro">
+                Hi, I am <strong>Sumayyah</strong>
+            </h1>
+            <p class="section-subtitle section-subtitle-intro">budding full stack developer</p>
+            <img src="images/sumayyah.jpg" alt="a picture of Sumayyah" class="intro-img">
+        </section>
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section-title section-title-about">Who I am</h2>
+            <p class="section-subtitle section-subtitle-about">Full Stack developer based out of St. John's</p>
+            
+            <div class="about-me-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
-        </div>
-        <div id="quote-section" class="quote">
-            <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, 
-                or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-            <p class="author">-Anonymous</p>
-        </div>
-        <div class="sign-up-section">
-            <div class="text">
-                <p><b>Call to action! It's time!</b></p>
-                <p class="small">Sign up for our product by clicking that button right over there!</p>
+            
+            <img src="images/sumayyah-full.png" alt="A full picture of Sumayyah" class="about-me-img">
+        </section>
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section-title section-title-services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Web App Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>WordPress</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section-title section-title-work">My work</h2>
+            <p class="section-subtitle section-subtitle-work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="images/biztrack-home.png" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="img/portfolio-02.jpg" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="img/portfolio-03.jpg" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="img/portfolio-04.jpg" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="img/portfolio-05.jpg" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="img/portfolio-06.jpg" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="portfolio-item.html" class="portfolio-item">
+                    <img src="img/portfolio-07.jpg" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio-item">
+                    <img src="img/portfolio-08.jpg" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio-item">
+                    <img src="img/portfolio-09.jpg" alt="" class="portfolio-img">
+                </a>
+                
+                <!-- Portfolio item 0 0-->
+                <a href="#" class="portfolio-item">
+                    <img src="img/portfolio-10.jpg" alt="" class="portfolio-img">
+                </a>
             </div>
-            <button id="contact-us" class="sign-up">Contact me!</button>
-        </div>
-    </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a class="social-list-link" href="mailto:sumayyahbmusa@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://linkedin.com/in/sumayyahmusa" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://github.com/sumusa" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://medium.com/@physiosummy" target="_blank">
+                        <i class="fab fa-medium"></i>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="social-list-link" href="https://www.credly.com/users/sumayyah_musa" target="_blank">
+                        <i class="fas fa-certificate"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
 
-    <footer>
-        <p>Copyright <span>&#169</span> SuMusa 2023</p>
-    </footer>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>
+
