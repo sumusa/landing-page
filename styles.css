@@ -139,7 +139,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5em 3em;
+    padding: 1.5em 2em;
     background: #63626230;
     position: relative;
 }
@@ -185,7 +185,7 @@ header {
 }
 
 .nav-toggle {
-    padding: 1.5em 3em;
+    padding: 1em;
     background: transparent;
     border: 0;
     cursor: pointer;
