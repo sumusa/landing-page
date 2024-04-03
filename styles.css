@@ -124,6 +124,7 @@ h3 { font-size: var(--fs-h3) }
     padding: .5em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
+    position: relative;
 }
 
 .section-subtitle-work {
@@ -140,6 +141,7 @@ header {
     justify-content: space-between;
     padding: 1.5em 3em;
     background: #63626230;
+    position: relative;
 }
 
 .logo {
@@ -273,12 +275,12 @@ header {
     
     .intro-img {
         grid-area: img;
-        min-width: 250px;
+        min-width: 300px;
         position: relative;
         z-index: 2;
     }    
     
-    .section-subtitle--intro {
+    .section-subtitle-intro {
         align-self: start;
         grid-column: -1 / 1;
         grid-row: 2;
@@ -364,11 +366,11 @@ header {
         grid-column-gap: 2em;
     }
     
-    .section-title--about {
+    .section-title-about {
         grid-area: title;
     }
     
-    .section-subtitle--about {
+    .section-subtitle-about {
         grid-column: 1 / -1;
         grid-row: 2;
         position: relative;
